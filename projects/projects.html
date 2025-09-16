@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Resume | Valentina Mora </title>
+        <link rel="stylesheet" href="../projects/projects.css" type="text/css">
+    </head>
+    <body>
+        <div id="page-wrapper">
+            <!-- header section starts here -->
+            <header>
+                <h1>Valentina Mora</h1>
+                <p>My Online Resume</p>
+            </header>
+            <!-- header section ends here -->
+
+            <div id="container">
+                <div id="left-child">
+                    <!-- nav section starts here -->
+                    <nav>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../education/education.html">Education</a></li>
+                            <li><a href="../experience/experience.html">Experience</a></li>
+                            <li><a href="../projects/projects.html">Projects</a></li>
+                            <li><a href="../references/references.html">References</a></li>
+                            <li><a href="../skills/skills.html">Skills</a></li>
+                        </ul>
+                    </nav>
+                    <!-- nav section ends here -->
+                </div>
+                
+                <div id="right-child">
+                    <!-- main section starts here -->
+                    <main>
+                        <div id="container-two">
+                            <div id="container-three">
+                                <h2>Projects</h2>
+                                <hr>
+                                <div class="text-container">
+                                    <span class="left-text"><a href="https://github.com/jasons1142/Gradescope-Grade-Calculator-Extension" target="_blank">Gradescope Grade Calculator Chrome Extension</a></span>
+                                    <span class="right-text">Jul 2024</span> 
+                                </div>
+                                <ul>
+                                    <li>
+                                        Engineered Chrome extension deploying JavaScript and Chrome API to integrate with 
+                                        Gradescope, dynamically extracting assignment data and enabling students to efficiently
+                                        track and calculate grades.
+                                    </li>
+                                    <li>
+                                        Designed a user-friendly, responsive popup interface operating HTML, CSS, and JavaScript to
+                                        display assignment data and enable users to calculate average of selected assignments.
+                                    </li>
+                                    <li>
+                                        Optimized real-time data processing by handling asynchronous communication between popup and content 
+                                        scripts using Chrome messaging API, resulting in instant feedback on grade calculations.
+                                    </li>
+                                </ul>
+                                <br>
+
+                                <div class="text-container">
+                                    <span class="left-text"><a href="https://github.com/vmora19/URL-Shortener" target="_blank">URL Shortener</a></span>
+                                    <span class="right-text">May 2025</span> 
+                                </div>
+            
+                                <ul>
+                                    <li>
+                                        Built a URL Shortener web application using Node.js with a MySQL backend, fully containerized 
+                                        with Docker for easy deployment.
+                                    </li>
+                                    <li>
+                                        Implemented RESTful API endpoints: GET to retrieve stored URLs, POST to create custom shortened URLs, 
+                                        and DELETE to remove links from the database.
+                                    </li>
+                                    <li>
+                                        Generated unique 6-character short codes to map long URLs, ensuring efficient and collision-resistant 
+                                        redirects.
+                                    </li>
+                                </ul>
+                                <br>
+
+                                <div class="text-container">
+                                    <span class="left-text"><a href="https://github.com/sscileppi/cs411-final-project" target="_blank">Weather Bites Snack Recommender Application</a></span>
+                                    <span class="right-text">Dec 2024</span> 
+                                </div>
+            
+                                <ul>
+                                    <li>
+                                        Developed a weather-based snack recommendation app using Flask, SQL databases, and the 
+                                        OpenWeatherMap API to suggest snacks tailored to current weather conditions.
+                                    </li>
+                                    <li>
+                                        Enhanced user security by integrating SQLAlchemy to store sensitive user information, 
+                                        such as hashed passwords and salts, in a secure SQLite database.
+                                    </li>
+                                </ul>
+                                <br>
+                            </div>
+                            
+
+                            <div id="calculator-container">
+                                <h2>Calculator</h2>
+                                <div id="labels">
+                                    <label for="one">Give me a number: </label><input id="input-one">
+                                    <br>
+                                    <label for="two">Give me a number: </label><input id="input-two">
+                                    <br>
+                                </div>
+                                
+                                <div id="operations">
+                                   <button onclick="doAddition()">+</button>
+                                    <button onclick="doSubtraction()">-</button>
+                                    <button onclick="doMultiplication()">*</button>
+                                    <button onclick="doDivision()">/</button>
+                                    <button onclick="doPower()">**</button> 
+                                </div>
+                                
+                                <button id="clear-button" onclick="doClear()">Clear</button>
+                                <h2 id = "output"></h2>
+                            </div> 
+                        </div>            
+                    </main>
+                    <!-- main section ends here -->
+                </div>
+            </div>
+
+            <!-- footer section starts here -->
+            <footer>
+                <p>All rights reserved by Valentina Mora <a href="">Credits </a>&#169;</p>
+            </footer>
+            <!-- footer section ends here -->
+        </div>
+        <script src="./projects.js"></script>
+    </body>
+</html>

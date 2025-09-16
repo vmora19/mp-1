@@ -3,36 +3,65 @@
     <head>
         <meta charset="UTF-8">
         <title> Resume | Valentina Mora </title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet"  href="./index.css" type="text/css">
     </head>
     <body>
-        <!-- nav section starts here -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="professional-experience.html">Professional Experience</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="references.html">References</a></li>
-                <li><a href="skills.html">Skills</a></li>
-            </ul>
-        </nav>
-        <!-- nav section ends here -->
+        <!-- page wrapper section  starts -->
+        <div id="page-wrapper">
+            <!-- header section starts here -->
+            <header>
+                <h1>Valentina Mora</h1>
+                <p>My Online Resume</p>
+            </header>
+            <!-- header section ends here -->
 
-        <!-- main section starts here -->
-        <main>
-            <h2>Home</h2>
-            <p>
-                Hello, my name is Valentina Mora. I am currently a senior studying Computer Science. 
-                I have accumulated a couple projects over the years that earned me an internship this past summer.
-                I am now applying to full-time positions post May 2026, when I graduate.
-            </p>
-            <p>
-                Welcome to my website! If you would like to learn more about my accomplishments or skills, 
-                please refer to my <a href="professional-experience.html">professional experience</a> or 
-                <a href="projects.html">projects</a>
-            </p>
-        </main>
-        <!-- main section ends here -->
+            <div id="container">
+                <div id="left-child">
+                    <!-- nav section starts here -->
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./education/education.html">Education</a></li>
+                            <li><a href="./experience/experience.html">Experience</a></li>
+                            <li><a href="./projects/projects.html">Projects</a></li>
+                            <li><a href="./references/references.html">References</a></li>
+                            <li><a href="./skills/skills.html">Skills</a></li>
+                        </ul>
+                    </nav>
+                    <!-- nav section ends here -->
+                </div>
+                
+
+                <div id="right-child">
+                    <!-- main section starts here -->
+                    <main>
+                        <div id="container-two">
+                            <h2>Home</h2>
+                            <hr>
+                        </div>
+                        
+
+                        <div id="second-container">
+                            <img src="./src/valentina-mora.jpg" alt="valentina mora profile picture">
+                            <p>
+                                Hello, my name is Valentina Mora. I am currently a senior studying Computer Science. 
+                                I have accumulated a couple projects over the years that earned me an internship this past summer.
+                                I am now applying to full-time positions post May 2026, when I graduate. Welcome to my website! If you would like to learn more about my accomplishments or skills, 
+                                please refer to my <a href="./experience/experience.html">professional experience</a> or 
+                                <a href="./projects/projects.html">projects</a>.
+                            </p>
+                        </div>
+                    </main>
+                    <!-- main section ends here -->
+                </div>
+            </div>
+
+            <!-- footer section starts here -->
+            <footer>
+                <p>All rights reserved by Valentina Mora <a href="">Credits </a>&#169;</p>
+            </footer>
+            <!-- footer section ends here -->
+        </div>
+        <!-- page wrapper section ends -->
     </body>
 </html>
